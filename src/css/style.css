@@ -1,0 +1,250 @@
+body {
+    background-image: radial-gradient(#6ac7c7, rgb(230, 222, 222));
+    margin: 0;
+    padding: 20px;
+    
+}
+
+header {
+    background-color: #020c2e;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.inicio {
+    background-color: gainsboro;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.bloco1 {
+    margin-bottom: 15px;
+}
+
+.inputUser,
+.form-check-input,
+input[type="date"],
+input[type="time"],
+input[type="text"],
+textarea {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.hr{
+    height: 1px;
+    background-color: black;
+}
+
+.warning-text {
+    background-color: gray;
+    color: red;
+    font-weight: bold;
+}
+
+.riscos {
+    margin-bottom: 20px;
+}
+
+.riscos-apr h2,
+.riscos h2 {
+    background-color: #020c2e;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.controle-tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+
+}
+
+.controle-tabela th,
+.controle-tabela td {
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    display: inline-flexbox;
+
+}
+
+.riscos-epi h2 {
+    background-color: #020c2e;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.epi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.epi-grid div {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.riscos-atividades h2 {
+    background-color: #020c2e;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+table.controles-atividade {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+table.controles-atividade th,
+table.controles-atividade td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table.controles-atividade th {
+    background-color: #020c2e;
+    color: white;
+}
+
+table.controles-atividade td input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+table.controles-atividade tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table.controles-atividade tr:hover {
+    background-color: #ddd;
+}
+
+.emergencia h2 {
+    background-color: #020c2e;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+#form-container h2 {
+
+    background-color: #020c2e;
+    color: red;
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif;
+
+
+}
+
+#form-container textarea {
+    color: black;
+    height: 100px;
+    text-align: left;
+    border-radius: 5px;
+    
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    font-size: 25px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.btn:hover {
+    background-color: #4CAF50;
+}
+
+
+
+/* #submit {
+    background-image: linear-gradient(to right, rgb(0, 092, 0197), rgb(90, 20, 220));
+    width: 200px;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#submit:hover {
+    background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195));
+} */
+
+.enviar-apr{
+    background-color: green;
+}
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    color: pink;
+}
+
+
+
