@@ -21,6 +21,8 @@
 
     <link rel="stylesheet" href="src/css/style.css">
 
+    <link rel="stylesheet" href="src/css/style_acessibilidade.css">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
@@ -30,6 +32,10 @@
 
 <body>
     <header>
+
+        <button id="theme-toggle" aria-label="Alternar entre modo claro e escuro">
+            🌙 Alternar tema
+        </button>
 
         <h1> APR DIGITAL - Gerenciamento de Risco Crítico</h1>
 
@@ -689,15 +695,15 @@
             </div>
 
             <div class="botoes">
-               
 
-                    <button class="btn btn-success btn-lg btn-block" onclick="gerarPDF()">Gerar PDF</button>
-                    
-            
 
-        
-                    <button type="submit" class="btn btn-success">Enviar</button>
-                
+                <button class="btn btn-success btn-lg btn-block" onclick="gerarPDF()">Gerar PDF</button>
+
+
+
+
+                <button type="submit" class="btn btn-success">Enviar</button>
+
             </div>
         </fieldset>
     </form>
@@ -705,6 +711,8 @@
     <br>
 
     <script src="src/js/javascript.js"></script>
+
+    <script src="src/js/theme_toggle.js"></script>
 
 </body>
 
