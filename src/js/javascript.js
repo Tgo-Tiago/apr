@@ -59,3 +59,24 @@ function gerarPDF() {
         alert("Ocorreu um erro ao gerar o PDF: " + error);
     });
 }
+
+/*acessibilidade*/
+
+    
+  document.addEventListener("DOMContentLoaded", function () {
+    const botao = document.getElementById('btn-acessibilidade');
+    const body = document.body;
+
+    // Carregar preferência salva
+    if (localStorage.getItem("acessibilidade") === "true") {
+      body.classList.add("acessibilidade");
+      botao.innerText = "☀️ Acessibilidade";
+    }
+
+    botao.addEventListener('click', () => {
+      body.classList.toggle('acessibilidade');
+      const ativo = body.classList.contains('acessibilidade');
+      botao.innerText = ativo ? "☀️ Acessibilidade" : "🌙 Acessibilidade";
+      localStorage.setItem("acessibilidade", ativo);
+    });
+  });
