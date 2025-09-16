@@ -39,10 +39,10 @@
     justify-content: start;
     cursor: pointer;
     padding: 15px;
-    transition: .3s;
 }
 
 .accessibility-option:hover {
+    transition: .3s;
     background-color: #1972f8;
 }
 
