@@ -14,6 +14,4 @@ if($conn-> connect_error){
     die("Falha ao se comunicar com o banco de dados: ".$conn->connect_error);
 }
 
-include 'index2.html';
-
 ?>
