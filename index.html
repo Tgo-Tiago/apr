@@ -8,11 +8,32 @@
     <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/utils.css" />
     <link rel="stylesheet" href="src/css/style.css" />
-    <link rel="stylesheet" href="src/css/dark.css" />
+    <link rel="stylesheet" href="src/css/accessibility.css" />
 
     <title>APR DIGITAL - Gerenciamento de Risco Crítico</title>
   </head>
   <body>
+    <div class="accessibility">
+      <button class="accessibility-button" id="accessibility-button">
+        <img src="src/assets/accessibility.png" alt="Acessibilidade" class="accessibility-button-icon" />
+      </button>
+
+      <div class="accessibility-options" id="accessibility-options">
+        <p class="accessibility-option">
+          <img src="src/assets/contrast.png" alt="Constraste" class="accessibility-option-icon" />
+          Contraste
+        </p>
+        <p class="accessibility-option">
+          <img src="src/assets/font.png" alt="Aumentar fonte" class="accessibility-option-icon" />
+          Aumentar fonte
+        </p>
+        <p class="accessibility-option">
+          <img src="src/assets/font.png" alt="Diminuir fonte" class="accessibility-option-icon" />
+          Diminuir fonte
+        </p>
+      </div>
+    </div>
+
     <header class="apr-header">
       <h1>APR DIGITAL</h1>
       <h1>Gerenciamento de risco crítico</h1>
@@ -58,5 +79,7 @@
         </div>
       </section>
     </main>
+
+    <script src="src/js/accessibility_toggle.js"></script>
   </body>
 </html>
