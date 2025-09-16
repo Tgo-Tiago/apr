@@ -1,0 +1,47 @@
+{
+    "sections": [
+        {
+            "name": "identificação",
+            "inputs": [
+                {
+                    "label": "Nome:",
+                    "type": "text",
+                    "placeholder": "Digite seu nome...",
+                    "name": "nome"
+                },
+                {
+                    "label": "Área:",
+                    "type": "text",
+                    "placeholder": "Digite sua área...",
+                    "name": "area"
+                },
+                {
+                    "label": "Atividade:",
+                    "type": "text",
+                    "placeholder": "Digite sua atividade...",
+                    "name": "atividade"
+                },
+                {
+                    "label": "Matrícula:",
+                    "type": "text",
+                    "placeholder": "Digite sua matrícula...",
+                    "name": "matricula",
+                    "grid": 2
+                },
+                {
+                    "label": "Data:",
+                    "type": "date",
+                    "placeholder": "dd/mm/aaaa",
+                    "name": "data",
+                    "grid": 2
+                },
+                {
+                    "label": "Horário:",
+                    "type": "time",
+                    "placeholder": "--:--",
+                    "name": "horario"
+                }
+            ]
+        }
+    ]
+}
