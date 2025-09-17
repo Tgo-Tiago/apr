@@ -15,4 +15,9 @@ body.contrast {
     --input-label-color: #FFFFFF;
     --input-placeholder-color: #000000;
     --input-radio-color: #F8FF3A;
+
+    --footer-button-color: #F8FF3A;
+    --footer-button-background: #000000;
+    --footer-button-background-hover: #131313;
+    --footer-button-border-color: #ffffff;
   }
