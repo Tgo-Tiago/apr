@@ -1,22 +1,27 @@
 :root {
-  --background-color: linear-gradient(0deg,rgba(212, 212, 212, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  --background-color: linear-gradient(0deg, rgba(212, 212, 212, 1) 0%, rgba(255, 255, 255, 1) 100%);
 
   --header-title-color: #ffffff;
   --header-background-color: linear-gradient(90deg, rgba(0, 39, 53, 1) 0%, rgba(2, 169, 136, 1) 100%);
   --header-border-color: none;
 
   --section-title-color: #383838;
-  --section-area-color: #D4D7D7;
+  --section-area-color: #d4d7d7;
   --section-area-border-color: #605757;
 
-  --input-border-color: #A4A4A4;
+  --input-border-color: #a4a4a4;
   --input-border-color-focus: #242424;
   --input-value-color: #242424;
   --input-label-color: #242424;
-  --input-placeholder-color: #A4A4A4;
-  --input-radio-color: #007BFF;
+  --input-placeholder-color: #a4a4a4;
+  --input-radio-color: #007bff;
 
-  --section-input-break-line : #969393;
+  --section-input-break-line: #969393;
+
+  --footer-button-color: #ffffff;
+  --footer-button-background: #02a988;
+  --footer-button-background-hover: #008066;
+  --footer-button-border-color: #005847;
 }
 
 * {
@@ -29,14 +34,17 @@ html {
 
 body {
   background: var(--background-color);
-  margin-left: 20vw;
-  margin-right: 20vw;
-  margin-bottom: 10vh;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-bottom: 10vh;
   min-height: 100%;
 }
 
+.pdf {
+  padding: 1vh 1vw;
+}
+
 .apr-header {
-  margin-top: 3vh;
   background: var(--header-background-color);
   color: var(--header-title-color);
   border-radius: 20px;
@@ -126,4 +134,28 @@ body {
   background-color: var(--section-input-break-line);
   height: 1px;
   margin-top: 1vw;
+}
+
+.apr-footer {
+  margin-top: 5vh;
+  padding: 0 1vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.apr-footer-button {
+  color: var(--footer-button-color);
+  background-color: var(--footer-button-background);
+  border: 1px solid var(--footer-button-border-color);
+  border-radius: 20px;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 2rem;
+  min-width: 20rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.apr-footer-button:hover {
+  background-color: var(--footer-button-background-hover);;
 }

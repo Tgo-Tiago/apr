@@ -97,7 +97,7 @@ $formulary = json_decode($formularyJSON, true);
       <?php endforeach; ?>
     </main>
     <footer class="apr-footer" id="apr-footer">
-      <button class="apr-footer-button" id="generate-pdf-button">Gerar PDF</button>
+      <button class="apr-footer-button" id="generate-pdf-button" type="button">Gerar PDF</button>
       <button class="apr-footer-button" type="submit">Enviar</button>
     </footer>
   </form>
