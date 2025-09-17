@@ -29,14 +29,17 @@ html {
 
 body {
   background: var(--background-color);
-  margin-left: 20vw;
-  margin-right: 20vw;
-  margin-bottom: 10vh;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-bottom: 10vh;
   min-height: 100%;
 }
 
+.pdf {
+  padding: 1vh 1vw;
+}
+
 .apr-header {
-  margin-top: 3vh;
   background: var(--header-background-color);
   color: var(--header-title-color);
   border-radius: 20px;
