@@ -14,6 +14,9 @@
   --input-value-color: #242424;
   --input-label-color: #242424;
   --input-placeholder-color: #A4A4A4;
+  --input-radio-color: #007BFF;
+
+  --section-input-break-line : #969393;
 }
 
 * {
@@ -28,6 +31,7 @@ body {
   background: var(--background-color);
   margin-left: 20vw;
   margin-right: 20vw;
+  margin-bottom: 10vh;
   min-height: 100%;
 }
 
@@ -96,4 +100,30 @@ body {
 .section-input-field::placeholder {
   font-size: 1.2rem;
   color: var(--input-placeholder-color);
+}
+
+.section-input-field[type="radio"] {
+  accent-color: var(--input-radio-color);
+  width: 1.6rem;
+  margin-right: 10px;
+}
+
+.section-input-options {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 1.2rem;
+  color: var(--input-label-color);
+}
+
+.section-input-label-radio {
+  list-style: disc;
+  display: list-item;
+  margin-left: 20px;
+}
+
+.section-input-break-line {
+  background-color: var(--section-input-break-line);
+  height: 1px;
+  margin-top: 1vw;
 }

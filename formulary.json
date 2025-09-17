@@ -42,6 +42,29 @@
                     "name": "horario"
                 }
             ]
+        },
+        {
+            "name": "perguntas",
+            "inputs": [
+                {
+                    "label": "Sinto-me bem para realizar essa atividade?",
+                    "type": "radio",
+                    "name": "sinto-me-bem",
+                    "options": ["Sim", "Não"]
+                },
+                {
+                    "label": "As pessoas sabem onde eu estou?",
+                    "type": "radio",
+                    "name": "sabem-estou",
+                    "options": ["Sim", "Não"]
+                },
+                {
+                    "label": "Alguém pode ser afetado por essa atividade?",
+                    "type": "radio",
+                    "name": "afetado-atividade",
+                    "options": ["Sim", "Não"]
+                }
+            ]
         }
     ]
 }

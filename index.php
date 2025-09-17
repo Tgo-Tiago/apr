@@ -55,17 +55,43 @@ $formulary = json_decode($formularyJSON, true);
 
         <div class="section-area">
           <?php foreach ($section["inputs"] as $input): ?>
-            <?php if (isset($input["grid"])) {
-              echo "<div class='grid-$input[grid]'>";
-            } ?>
-            <div class="section-input">
-              <label for="<?php echo $input["name"] ?>" class="section-input-label"><?php echo $input["label"] ?></label>
-              <input type="<?php echo $input["type"] ?>" name="<?php echo $input["name"] ?>"
-                id="<?php echo $input["name"] ?>" placeholder="<?php echo $input["placeholder"] ?>"
-                class="section-input-field" />
-            </div>
-          <?php endforeach; ?>
-        </div>
+            <!-- Faz  a checagem se os inputs devem ser divididos em colunas -->
+            <?php if (isset($input["grid"])): ?>
+              <div class="grid-<?php echo $input["grid"] ?>">
+              <?php endif; ?>
+
+              <!-- Estilização de inputs de tipos específicos ("text", "number", "date", "time") -->
+              <?php if (isset($input["type"]) && in_array($input["type"], ["text", "number", "date", "time"])): ?>
+                <div class="section-input">
+                  <label for="<?php echo $input["name"] ?>" class="section-input-label"><?php echo $input["label"] ?></label>
+                  <input type="<?php echo $input["type"] ?>" name="<?php echo $input["name"] ?>"
+                    id="<?php echo $input["name"] ?>" placeholder="<?php echo $input["placeholder"] ?>"
+                    class="section-input-field" />
+                </div>
+              <?php endif; ?>
+
+              <!-- Estilização de inputs de tipos específicos ("radio") -->
+              <?php if (isset($input["type"]) && in_array($input["type"], ["radio"])): ?>
+                <div class="section-input">
+                  <label for="<?php echo $input["name"] ?>"
+                    class="section-input-label section-input-label-radio"><?php echo $input["label"] ?></label>
+                  <?php foreach ($input["options"] as $option): ?>
+                    <div class="section-input-options">
+                      <input type="<?php echo $input["type"] ?>" name="<?php echo $input["name"] ?>" class="section-input-field"
+                        value="<?php echo $option ?>" id="<?php echo "$input[name]-$option" ?>" />
+                      <label for="<?php echo "$input[name]-$option" ?>"><?php echo $option ?></label>
+                    </div>
+                  <?php endforeach; ?>
+                </div>
+
+                <?php if ($input !== end($section["inputs"])): ?>
+                  <div class="section-input-break-line"></div>
+                <?php endif; ?>
+              <?php endif; ?>
+
+
+            <?php endforeach; ?>
+          </div>
       </section>
     <?php endforeach; ?>
   </main>
