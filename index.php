@@ -43,7 +43,7 @@ $formulary = json_decode($formularyJSON, true);
     </div>
   </div>
 
-  <div class="pdf" id="pdf">
+  <form action="processar-dados.php" method="post" class="pdf" id="pdf">
     <header class="apr-header">
       <h1>APR DIGITAL</h1>
       <h1>Gerenciamento de risco crítico</h1>
@@ -79,8 +79,8 @@ $formulary = json_decode($formularyJSON, true);
                     <?php foreach ($input["options"] as $option): ?>
                       <div class="section-input-options">
                         <input type="<?php echo $input["type"] ?>" name="<?php echo $input["name"] ?>" class="section-input-field"
-                          value="<?php echo $option ?>" id="<?php echo "$input[name]-$option" ?>" />
-                        <label for="<?php echo "$input[name]-$option" ?>"><?php echo $option ?></label>
+                          value="<?php echo $option["value"] ?>" id="<?php echo "$input[name]-$option[text]" ?>" />
+                        <label for="<?php echo "$input[name]-$option[text]" ?>"><?php echo $option["text"] ?></label>
                       </div>
                     <?php endforeach; ?>
                   </div>
@@ -96,12 +96,11 @@ $formulary = json_decode($formularyJSON, true);
         </section>
       <?php endforeach; ?>
     </main>
-  </div>
-
-  <footer class="apr-footer" id="apr-footer">
-    <button class="apr-footer-button" id="generate-pdf-button">Gerar PDF</button>
-    <button class="apr-footer-button">Enviar</button>
-  </footer>
+    <footer class="apr-footer" id="apr-footer">
+      <button class="apr-footer-button" id="generate-pdf-button">Gerar PDF</button>
+      <button class="apr-footer-button" type="submit">Enviar</button>
+    </footer>
+  </form>
 
   <script src="src/js/contrast_toggle.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
