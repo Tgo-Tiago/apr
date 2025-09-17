@@ -1,0 +1,97 @@
+{
+  "sections": [
+    {
+      "name": "identificação",
+      "inputs": [
+        {
+          "label": "Nome:",
+          "type": "text",
+          "placeholder": "Digite seu nome...",
+          "name": "nome"
+        },
+        {
+          "label": "Área:",
+          "type": "text",
+          "placeholder": "Digite sua área...",
+          "name": "area"
+        },
+        {
+          "label": "Atividade:",
+          "type": "text",
+          "placeholder": "Digite sua atividade...",
+          "name": "atividade"
+        },
+        {
+          "label": "Matrícula:",
+          "type": "text",
+          "placeholder": "Digite sua matrícula...",
+          "name": "matricula",
+          "grid": 2
+        },
+        {
+          "label": "Data:",
+          "type": "date",
+          "placeholder": "dd/mm/aaaa",
+          "name": "data_atual",
+          "grid": 2
+        },
+        {
+          "label": "Horário:",
+          "type": "time",
+          "placeholder": "--:--",
+          "name": "hora_atual"
+        }
+      ]
+    },
+    {
+      "name": "perguntas",
+      "inputs": [
+        {
+          "label": "Sinto-me bem para realizar essa atividade?",
+          "type": "radio",
+          "name": "sinto_bem",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "label": "As pessoas sabem onde eu estou?",
+          "type": "radio",
+          "name": "onde_estou",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "label": "Alguém pode ser afetado por essa atividade?",
+          "type": "radio",
+          "name": "afetado",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+body.contrast {
+    --background-color: #1B1B1B;
+
+    --header-title-color: #F8FF3A;
+    --header-background-color: #000000;
+    --header-border-color: #ffffff;
+  
+    --section-title-color: #F8FF3A;
+    --section-area-color: #000000;
+    --section-area-border-color: #ffffff;
+  
+    --input-border-color: #ffffff;
+    --input-border-color-focus: #ffffff;
+    --input-value-color: #000000;
+    --input-label-color: #FFFFFF;
+    --input-placeholder-color: #000000;
+    --input-radio-color: #F8FF3A;
+
+    --footer-button-color: #F8FF3A;
+    --footer-button-background: #000000;
+    --footer-button-background-hover: #131313;
+    --footer-button-border-color: #ffffff;
+  }

@@ -1,0 +1,57 @@
+.accessibility-button {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    background-color: #3D8BFF;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: .3s;
+
+    position: fixed;
+    top: 3vh;
+    right: 2vw;
+}
+
+.accessibility-button:hover {
+    background-color: #1972f8;
+}
+
+.accessibility-button-icon {
+    width: 70%;
+}
+
+.accessibility-options {
+    position: fixed;
+    top: 14vh;
+    right: 2vw;
+    color: #FFFFFF;
+    background-color: #3D8BFF;
+    border: 2px solid #000000;
+    overflow: hidden;
+    border-radius: 20px;
+    visibility: hidden;
+}
+
+.accessibility-option {
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.accessibility-option:hover {
+    transition: .3s;
+    background-color: #1972f8;
+}
+
+.accessibility-option-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-right: 10px;
+}
+
+.active {
+    visibility: visible;
+}
