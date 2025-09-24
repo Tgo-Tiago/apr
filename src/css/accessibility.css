@@ -1,6 +1,6 @@
 .accessibility-button {
-    width: 10vh;
-    height: 10vh;
+    width: var(--accessibility-button-size);
+    height: var(--accessibility-button-size);
     border-radius: 50%;
     background-color: #3D8BFF;
     border: 2px solid #000000;
@@ -8,7 +8,7 @@
     transition: .3s;
 
     position: fixed;
-    top: 3vh;
+    top: var(--accessibility-button-top-distance);
     right: 2vw;
 }
 
@@ -22,7 +22,7 @@
 
 .accessibility-options {
     position: fixed;
-    top: 14vh;
+    top: var(--accessibility-options-top-distance);
     right: 2vw;
     color: #FFFFFF;
     background-color: #3D8BFF;
