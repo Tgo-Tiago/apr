@@ -34,9 +34,9 @@ html {
 
 body {
   background: var(--background-color);
-  padding-left: 20vw;
-  padding-right: 20vw;
-  padding-bottom: 10vh;
+  padding-left: var(--body-horizontal-padding);
+  padding-right: var(--body-horizontal-padding);
+  padding-bottom: var(--body-bottom-padding);
   min-height: 100%;
 }
 
@@ -52,6 +52,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   padding: 3vh 0;
   font-weight: bold;
   font-size: 1rem;
@@ -75,7 +76,7 @@ body {
   padding-top: 0;
   background-color: var(--section-area-color);
   border: 1px solid var(--section-area-border-color);
-  border-radius: 20px;
+  border-radius: var(--section-area-border-radius);
   display: flex;
   flex-direction: column;
 }
@@ -147,8 +148,8 @@ body {
   color: var(--footer-button-color);
   background-color: var(--footer-button-background);
   border: 1px solid var(--footer-button-border-color);
-  border-radius: 20px;
-  padding: 20px;
+  border-radius: var(--footer-button-border-radius);
+  padding: var(--footer-button-padding);
   font-weight: bold;
   font-size: 2rem;
   min-width: 20rem;

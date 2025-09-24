@@ -1,0 +1,29 @@
+:root {
+  --body-horizontal-padding: 20vw;
+  --body-bottom-padding: 10vh;
+  --footer-button-padding: 20px;
+  --footer-button-border-radius: 20px;
+  --section-area-border-radius: 20px;
+  --accessibility-button-size: 10vh;
+  --accessibility-button-top-distance: 3vh;
+  --accessibility-options-top-distance: 14vh;
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    font-size: 14px;
+    --body-horizontal-padding: 2vw;
+    --body-bottom-padding: 2vh;
+    --footer-button-padding: 5px;
+    --footer-button-border-radius: 5px;
+    --section-area-border-radius: 5px;
+    --accessibility-button-size: 7vh;
+    --accessibility-button-top-distance: 1vh;
+    --accessibility-options-top-distance: 9vh;
+  }
+
+  .apr-footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
