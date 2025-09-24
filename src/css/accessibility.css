@@ -9,7 +9,7 @@
 
     position: fixed;
     top: var(--accessibility-button-top-distance);
-    right: 2vw;
+    left: 2vw;
 }
 
 .accessibility-button:hover {
@@ -23,7 +23,7 @@
 .accessibility-options {
     position: fixed;
     top: var(--accessibility-options-top-distance);
-    right: 2vw;
+    left: 2vw;
     color: #FFFFFF;
     background-color: #3D8BFF;
     border: 2px solid #000000;
@@ -39,6 +39,10 @@
     justify-content: start;
     cursor: pointer;
     padding: 15px;
+    border: 0;
+    background-color: transparent;
+    width: 100%;
+    color: #FFFFFF;
 }
 
 .accessibility-option:hover {

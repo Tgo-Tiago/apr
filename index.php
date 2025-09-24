@@ -29,18 +29,18 @@ $formulary = json_decode($formularyJSON, true);
     </button>
 
     <div class="accessibility-options" id="accessibility-options">
-      <p class="accessibility-option" id="accessibility-contrast-button">
+      <button class="accessibility-option" id="accessibility-contrast-button">
         <img src="src/assets/contrast.png" alt="Constraste" class="accessibility-option-icon" />
         Contraste
-      </p>
-      <p class="accessibility-option" id="increase-font-accessibility-button">
+      </button>
+      <button class="accessibility-option" id="increase-font-accessibility-button">
         <img src="src/assets/font.png" alt="Aumentar fonte" class="accessibility-option-icon" />
         Aumentar fonte
-      </p>
-      <p class="accessibility-option" id="decrease-font-accessibility-button">
+      </button>
+      <button class="accessibility-option" id="decrease-font-accessibility-button">
         <img src="src/assets/font.png" alt="Diminuir fonte" class="accessibility-option-icon" />
         Diminuir fonte
-      </p>
+      </button>
     </div>
   </div>
 
@@ -105,6 +105,17 @@ $formulary = json_decode($formularyJSON, true);
       <button class="apr-footer-button" type="submit">Enviar</button>
     </footer>
   </form>
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
 
   <script src="src/js/contrast_toggle.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
