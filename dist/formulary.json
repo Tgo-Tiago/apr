@@ -92,6 +92,1068 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Afogamento",
+      "inputs": [
+        {
+          "label": "Os dispositivos de flutuação estão disponíveis e em boas condições?",
+          "type": "radio",
+          "name": "flutuacao_condicao",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Os equipamentos de proteção ou barreiras contra queda estão sendo utilizados?",
+          "type": "radio",
+          "name": "barreiras_quedas",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "SA superfície onde o equipamento móvel está operando é estável e oferece um bom suporte para evitar escorregamentos, atolamento e deslizamentos?",
+          "type": "radio",
+          "name": "superficie_movel",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Espaço Confinado",
+      "inputs": [
+        {
+          "label": "Foi realizado teste atmosférico e monitoramento contínuo?",
+          "type": "radio",
+          "name": "teste_atmosferico",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "O bloqueio de energias foi executado conforme matriz?",
+          "type": "radio",
+          "name": "bloqueio_energias",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Existe exaustão/ventilação de acordo com a avaliação da tarefa?",
+          "type": "radio",
+          "name": "exaustao_tarefa",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "(SF) O porão está isento de sucata?",
+          "type": "radio",
+          "name": "porao_sucata",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Contato com Eletricidade",
+      "inputs": [
+        {
+          "label": "Foi realizada a PET/PPT para esta atividade?",
+          "type": "radio",
+          "name": "pet_ativ",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "O procedimento de bloqueio foi seguido conforme matriz?",
+          "type": "radio",
+          "name": "bloqueio_matriz_proced",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "EPI específico para atividade com eletricidade em boas condições?",
+          "type": "radio",
+          "name": "epi_eletric",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "As ferramentas eletroportáteis estão devidamente inspecionadas e em boas condições?",
+          "type": "radio",
+          "name": "inspec_eletroportateis",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Para equipamentos elétricos portáteis existe DR e este foi testado?",
+          "type": "radio",
+          "name": "dr_portateis",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Para atividades em equipamentos energizados ou linha viva de alta tensão, existe a PPT aprovada? ",
+          "type": "radio",
+          "name": "ppt_energizados",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Veículos e equipamentos Móveis",
+      "inputs": [
+        {
+          "label": "Foi realizada inspeção prévia do veículo/equipamento antes do uso?",
+          "type": "radio",
+          "name": "inspecao",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Você está bem descansado e livre dos efeitos da fadiga e/ou medicação?",
+          "type": "radio",
+          "name": "descanso",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Os calços disponíveis estão de acordo com o padrão da CBA?",
+          "type": "radio",
+          "name": "calcos",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Durante a operação/deslocamento, o cinto de segurança está sendo utilizado?",
+          "type": "radio",
+          "name": "cinto_desloc",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Os limites de velocidade estão sendo cumpridos?",
+          "type": "radio",
+          "name": "limites_velocidade",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Existe segregação de veículos e pedestres?",
+          "type": "radio",
+          "name": "segregacacao_pedestres",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cargas Suspensas",
+      "inputs": [
+        {
+          "label": "As pessoas estão fora da linha de fogo da carga?",
+          "type": "radio",
+          "name": "pessoas_linha_fogo",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "O isolamento para a atividade tem uma cobertura de 360 graus para evitar acesso não intencional de pessoas?",
+          "type": "radio",
+          "name": "isolamento_360",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Os equipamentos e dispositivos de içamento estão inspecionados e em boas condições de uso?",
+          "type": "radio",
+          "name": "icamento",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "O guindaste/guindauto está operando em solo com condição estável?",
+          "type": "radio",
+          "name": "guindaste_estavel",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Foi realizado um plano de carga/rigging para a atividade de içamento?",
+          "type": "radio",
+          "name": "carga_rigging",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Metais Fundidos",
+      "inputs": [
+        {
+          "label": "Veículo totalmente cabinado para atividades nos fornos?",
+          "type": "radio",
+          "name": "veiculo_cabinado",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Zona de acesso restrito durante as atividades: drenar, escumar, raspar, carregamento de fornos?",
+          "type": "radio",
+          "name": "zona_restrita",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Pré aquecimento das ferramentas antes de entrar em contato com metal?",
+          "type": "radio",
+          "name": "pre_aquecimento",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "(SF) Os fornos estão isentos de fogo no topo e não há camisa avermelhada?",
+          "type": "radio",
+          "name": "fornos_topo",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Escavação",
+      "inputs": [
+        {
+          "label": "A proteção contra desmoronamentos foi implementada?",
+          "type": "radio",
+          "name": "desmoronamentos",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Existe controle de acesso para as áreas de escavação?",
+          "type": "radio",
+          "name": "controle_acesso",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Existe um planejamento de resgate?",
+          "type": "radio",
+          "name": "planej_resgate",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "A permissão de trabalho foi preenchida e validada?",
+          "type": "radio",
+          "name": "permissao",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Proteção de Máquinas",
+      "inputs": [
+        {
+          "label": "O procedimento de bloqueio foi seguido conforme matriz?",
+          "type": "radio",
+          "name": "bloqueio_proced",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Você sabe onde ficam as botoeiras de emergência?",
+          "type": "radio",
+          "name": "botoeiras",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Existem barreiras físicas e enclausuramento de partes móveis?",
+          "type": "radio",
+          "name": "barreira_moveis",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Os sensores dos equipamentos estão funcionando corretamente?",
+          "type": "radio",
+          "name": "sensor_equip",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Liberação Inesperada de Energia",
+      "inputs": [
+        {
+          "label": "O procedimento de bloqueio foi seguido conforme matriz?",
+          "type": "radio",
+          "name": "bloqueio_matriz",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Os equipamentos de alta pressão foram inspecionados antes do uso?",
+          "type": "radio",
+          "name": "equipe_pressao_inspe",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Os equipamentos de alta pressão possuem válvula de alívio e estas estão em boas condições?",
+          "type": "radio",
+          "name": "equip_pressao",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Os manômetros mostram claramente os limites de operação?",
+          "type": "radio",
+          "name": "manometros",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Existem dispositivos de proteção anti-chicoteamento nas mangueiras?",
+          "type": "radio",
+          "name": "anti_chicoteamento",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Para risco de estouro de pneus, foi verificado se a temperatura está dentro da margem de segurança?",
+          "type": "radio",
+          "name": "pneus_temp",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Para risco de estouro de pneus, existem barreiras de segurança aprovada antes de encher os pneus?",
+          "type": "radio",
+          "name": "pneus_barreira",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Substâncias Químicas Perigosas",
+      "inputs": [
+        {
+          "label": "EPIs específicos para atividades com produtos químicos estão sendo utilizados?",
+          "type": "radio",
+          "name": "epi_produtos",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Foi realizado o processo de Bloqueio, Teste e Verificação do Sistema/Equipamento?",
+          "type": "radio",
+          "name": "bloqueio_teste",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Os produtos químicos estão identificados e você tem acesso à FDS do produto?",
+          "type": "radio",
+          "name": "produto_ident",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Você sabe o que fazer em caso de emergência com o produto químico que está usando?",
+          "type": "radio",
+          "name": "produto_emergencia",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Queda de Altura",
+      "inputs": [
+        {
+          "label": "Existem barreira física de prevenção de quedas (Ex: Guarda-corpo e limitador de acesso)?",
+          "type": "radio",
+          "name": "barreira_fisica",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Os EPIs de trabalho em altura foram previamente inspecionados e estão em boas condições de uso? ",
+          "type": "radio",
+          "name": "epis_altura",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "100% do tempo com o cinto de segurança fixado em ponto de ancoragem adequado?",
+          "type": "radio",
+          "name": "cinto_segu",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Foi realizada a PPT para esta atividade?",
+          "type": "radio",
+          "name": "ppt_ativ",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "O andaime está liberado para uso?",
+          "type": "radio",
+          "name": "andaime",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        },
+        {
+          "label": "Os equipamentos de trabalho em altura (plataformas, escadas, etc.) foram previsamente inspecionados e estão em boas condições de uso?",
+          "type": "radio",
+          "name": "equip_alt",
+          "options": [
+            {
+              "text": "Sim",
+              "value": 1
+            },
+            {
+              "text": "Não",
+              "value": 0
+            },
+            {
+              "text": "N/A",
+              "value": null
+            }
+          ]
+        }
+      ]
     }
   ]
 }
